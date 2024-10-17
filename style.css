@@ -2,16 +2,87 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
+body {
+  min-height: 100vh;
+  background: url(./sources/Background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .welcome h2 {
   text-align: center;
-   font-family: "Poppins", sans-serif; /* Using the font that I imported in the 2nd line of the StyleSheet */
+  font-family: "Poppins", sans-serif; /* Using the font that I imported in the 2nd line of the StyleSheet */
   font-size: 24px;
 }
 .welcome p {
   text-align: center;
   font-family: "Raleway", sans-serif; /* Using the font that I imported in the 3nd line of the StyleSheet */
-   font-size: 20px;
-font-weight: bold;
-   color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
 }
 
+.nav {
+  padding: 10px; 
+  position: fixed;
+  top: 0; 
+  right: 0; 
+  width: auto; 
+  z-index: 1000; 
+}
+
+.nav h2 {
+  margin: 0; /* Remove default margin */
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  display: inline; /* Keep the heading inline */
+}
+
+.nav a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #000;
+  margin-left: 15px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #ff0000;
+}
+
+.hidden {
+  display: none;
+}
+.aboutusbtn {
+  font-family: "Poppins", sans-serif;
+  background-color: #ff0000;
+  border: none;
+  outline: none;
+  border-radius: 10pc;
+  width: 110px;
+  padding: 17px;
+  cursor: pointer;
+}
+
+.aboutusbtn:hover {
+  background-color: #ccc;
+  font-family: "Poppins", sans-serif;
+}
+
+.hideaboutusbtn {
+  font-family: "Poppins", sans-serif;
+  background-color: #ff0000;
+  color: #000;
+  border: none;
+  outline: none;
+  border-radius: 10pc;
+  width: 110px;
+  padding: 17px;
+  cursor: pointer;
+}
+
+.hideaboutusbtn:hover {
+  font-family: "Poppins", sans-serif;
+  background-color: #ccc;
+}
