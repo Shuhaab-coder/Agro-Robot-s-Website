@@ -38,7 +38,16 @@ body {
   display: inline; /* Keep the heading inline */
 }
 
-.nav a {
+.nav .TimesOfIndia {
+  position: relative;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+.nav .UNReport {
+  position: relative;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -46,7 +55,12 @@ body {
   margin-left: 15px;
 }
 
-.nav a:hover {
+.nav .UNReport:hover {
+  text-decoration: underline;
+  color: #ff0000;
+}
+
+.nav .TimesOfIndia:hover {
   text-decoration: underline;
   color: #ff0000;
 }
@@ -86,3 +100,4 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #ccc;
 }
+
