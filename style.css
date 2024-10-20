@@ -4,7 +4,7 @@
 
 body {
   min-height: 100vh;
-  background: #f0f0f0; /* Final background-color */
+  background: #d39393;
   background-size: cover;
   background-position: center;
 }
@@ -117,4 +117,9 @@ body {
 
 .hideaboutusbtn:active {
   scale: 0.95;
+}
+
+.About-us p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
 }
