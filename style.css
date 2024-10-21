@@ -4,7 +4,7 @@
 
 body {
   min-height: 100vh;
-  background: #d39393;
+  background: #add8e6;
   background-size: cover;
   background-position: center;
 }
@@ -13,12 +13,13 @@ body {
   text-align: center;
   font-family: "Poppins", sans-serif; /* Using the font that I imported in the 2nd line of the StyleSheet */
   font-size: 24px;
+  font-weight: 900;
 }
 .welcome p {
   text-align: center;
   font-family: "Raleway", sans-serif; /* Using the font that I imported in the 3nd line of the StyleSheet */
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 650;
   color: #000;
 }
 
